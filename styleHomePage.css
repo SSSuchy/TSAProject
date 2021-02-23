@@ -28,6 +28,7 @@ body{
 .pad{
 	padding-top: 25px !important;
 	padding-bottom: 25px !important;
+	max-width: 100%;
 }
 .pad-two{
 	padding-top: 70px !important;
