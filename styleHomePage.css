@@ -33,5 +33,11 @@ body{
 	padding-top: 70px !important;
 }
 .text-change{
-	color: rgb(0,253,182);
+	color: rgb(0,253,182) !important;
+}
+.text-color-green{
+	color: rgb(17,166,144) !important;
+}
+.text-color-blue{
+	color: rgb(0,134,162);
 }
