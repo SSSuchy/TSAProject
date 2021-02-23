@@ -17,7 +17,7 @@
 		<div class="container-fluid  p-0">
 			<nav class="navbar navbar-expand-lg navbar-light bg-warning bg-gradient">
 			<div class="container-fluid">
-			<a class="navbar-brand" href="#">Omega Health</a>
+			<a class="navbar-brand" href="index.html">Omega Health</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon "></span>
 			</button>
@@ -25,11 +25,19 @@
 			  <div class="mr-auto "></div>
 			  <ul class="navbar-nav">
 			    <li class="nav-item active">
-			      <a class="nav-link active" aria-current="page" href="#">Home Page</a>
+			      <a class="nav-link active" aria-current="page" href="index.html">Home Page</a>
 			    </li>
-			    <li class="nav-item">
-			      <a class="nav-link hover-mode" href="#">Services</a>
-			    </li>
+			    <li class="nav-item dropdown">
+	              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	                Services
+	              </a>
+	              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                <li><a class="dropdown-item" href="weeklyCheckUps.html">Weekly Checkups</a></li>
+	                <li><a class="dropdown-item" href="#">Strategies</a></li>
+	                <li><hr class="dropdown-divider"></li>
+	                <li><a class="dropdown-item" href="#">Care Packages</a></li>
+	              </ul>
+	            </li>
 			    <li class="nav-item">
 			      <a class="nav-link hover-mode" href="#">Pricing</a>
 			    </li>
@@ -48,27 +56,34 @@
 		</p>
 		<hr>
 		
-		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel " data-interval = "3000">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="1000">
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
 		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-		      <img src="pictures\first.jpg" class="d-block w-100" alt="First Picture of Telehealth">
+		    <div class="carousel-item active" >
+		      <img src="pictures\first.jpg" class="d-block w-100" alt="...">
 		    </div>
-		    <div class="carousel-item">
-		      <img src="pictures\second.jpg" class="d-block w-100" alt="Second Picture of Telehealth">
+		    <div class="carousel-item" >
+		      <img src="pictures\second.jpg" class="d-block w-100" alt="...">
 		    </div>
-		    <div class="carousel-item">
-		      <img src="pictures\third.jpg" class="d-block w-100" alt="Third Picture of Telehealth">
+		    <div class="carousel-item" >
+		      <img src="pictures\third.jpg" class="d-block w-100" alt="...">
 		    </div>
 		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="visually-hidden">Previous</span>
 		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
 		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		    <span class="visually-hidden">Next</span>
 		  </button>
 		</div>
+
+		
 		
 		<br>
 
@@ -337,10 +352,10 @@
 
 		        <ul class="list-unstyled mb-0">
 		          <li>
-		            <a href="#!" class="text-dark">Home Page</a>
+		            <a href="index.html" class="text-dark">Home Page</a>
 		          </li>
 		          <li>
-		            <a href="#!" class="text-dark">Services</a>
+		            <a href="weeklyCheckUps.html" class="text-dark">Services</a>
 		          </li>
 		          <li>
 		            <a href="#!" class="text-dark">Features</a>
