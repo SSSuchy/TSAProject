@@ -25,6 +25,9 @@ body{
 
 
 }
+.pad-left{
+	padding-left: 25px !important;
+}
 .pad{
 	padding-top: 25px !important;
 	padding-bottom: 25px !important;
