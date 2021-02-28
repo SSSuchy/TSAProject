@@ -28,6 +28,9 @@ body{
 .pad-left{
 	padding-left: 25px !important;
 }
+.pad-right{
+	padding-right: 25px !important;
+}
 .pad{
 	padding-top: 25px !important;
 	padding-bottom: 25px !important;
@@ -44,4 +47,17 @@ body{
 }
 .text-color-blue{
 	color: rgb(0,134,162);
+}
+.bg-lightGrey{
+	background-color: rgb(232,236,247) !important;
+
+}
+.padTop{
+	padding-top: 25px !important;
+
+}
+.downImg{
+	display: block;
+	max-width: 75%;
+	height: 75%;
 }
