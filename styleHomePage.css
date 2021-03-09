@@ -64,3 +64,14 @@ body{
 .font-size-increase{
 	font-size: 150% !important;
 }
+.routine-pad-left{
+	padding-left: 220px !important;
+}
+.routine-pad-right{
+	padding-right: 220px !important;
+}
+.card-img-top2 {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
