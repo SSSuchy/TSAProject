@@ -149,7 +149,7 @@ body{
   height: 5px;
 }
 .circle {
-
+  vertical-align: middle;	
   height: 100px;
   width: 100px;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
@@ -164,21 +164,31 @@ body{
 .rectangle{
 	height: 80%;
 	width: 100%;
-	border-radius: 10%;
+
+	border-radius: 15%;
 	background-color: white;
 	border: 5px solid #31D492;
+	text-align: center;
+
 }
 .rectTitle{
-	font-size: 120%;
+	font-size: 140%;
 	color: #4131D4 !important;
-	font-weight: bold;
+	
 	position: relative;
-	left: 6%;
+
+	
 }
 .rectSub{
-	font-size: 90%;
+	font-size: 100%;
 	position: relative;
-	left: 6%;
+	
+
 	color: grey;
 
+}
+.text-yellow{
+	
+
+	color: #c4d431;
 }
